@@ -6,15 +6,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Reboot CSS -->
-    <link rel="stylesheet" href="https://github.com/twbs/bootstrap/blob/v4-dev/dist/css/bootstrap-reboot.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <!-- font awesome CSS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
         crossorigin="anonymous">
-
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Winfield H. Portfolio</title>
 </head>
 
@@ -51,7 +52,7 @@
 
     <!-- This is where the portfolio is -->
     <div class="container">
-        <div class="jumbotron">
+        <div class="jumbotron shadow border">
             <div class="row">
                 <div class="col">
                     <h1 class="display-4">My Portfolio</h1>
@@ -60,52 +61,86 @@
             </div>
             <div class="row">
                 <div class="col-md-4">
-                    <!-- img 1 -->
+                    <!-- GifTastic -->
                     <div class="card">
-                        <img class="card-img-top" src="https://via.placeholder.com/300x200" alt="Card image cap">
+                        <img class="card-img-top" src="assets/images/giphySearch.JPG" alt="giphy API search image">
                         <div class="card-body">
-                            <h5 class="card-title">Project 1</h5>
-                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic nisi nam
-                                fugit sunt, impedit qui reiciendis atque quos est nobis.
-                                bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary"><i class="fas fa-arrow-circle-right"></i> GO</a>
+                            <h5 class="card-title">GifTastic search page</h5>
+                            <hr>
+                            <p class="card-text">This app uses the GIPHY API to make a dynamic web page that populates with gifs of your choice.</p>
+                            <a href="https://winpildeu.github.io/GifTastic/" class="btn btn-primary" target="_blank"><i class="fas fa-arrow-circle-right"></i> GO</a>
                         </div>
                     </div>
                 </div>
 
-                <!-- img 2 -->
+                <!-- Trivia Game -->
                 <div class="col-md-4">
                     <div class="card">
-                        <img class="card-img-top" src="https://via.placeholder.com/300x200" alt="Card image cap">
+                        <img class="card-img-top" src="assets/images/triviaGame.JPG" alt="trivia game image">
                         <div class="card-body">
-                            <h5 class="card-title">Project 2</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, nemo
-                                nihil commodi quia voluptas aliquid nisi architecto amet unde iure!</p>
-                            <a href="#" class="btn btn-primary"><i class="fas fa-arrow-circle-right"></i> GO</a>
+                            <h5 class="card-title">Trivia Game</h5>
+                            <hr>
+                            <p class="card-text">A Trivia game using JavaScript for the logic and jQuery to manipulate HTML.</p>
+                            <a href="https://winpildeu.github.io/TriviaGame/" class="btn btn-primary"><i class="fas fa-arrow-circle-right"></i> GO</a>
                         </div>
                     </div>
                 </div>
 
-                <!-- img 3 -->
+                <!-- Pokemon Battle -->
                 <div class="col-md-4">
                     <div class="card">
-                        <img class="card-img-top" src="https://via.placeholder.com/300x200" alt="Card image cap">
+                        <img class="card-img-top" src="assets/images/rpgGame.JPG" alt="Pokemon themed RPG game image">
                         <div class="card-body">
-                            <h5 class="card-title">Project 3</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-                                necessitatibus, in rerum mollitia exercitationem asperiores modi sapiente excepturi sit
-                                facere.</p>
-                            <a href="#" class="btn btn-primary"><i class="fas fa-arrow-circle-right"></i> GO</a>
+                            <h5 class="card-title">Pokemon Battle</h5>
+                            <p class="card-text">This is a Pokemon themed turn-based RPG game made using JS and jQuery.</p>
+                            <a href="https://winpildeu.github.io/unit-4-game/" class="btn btn-primary"><i class="fas fa-arrow-circle-right"></i> GO</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+            <br>
+            <div class="row">
+                <div class="col-md-4">
+                    <!-- Word Guess -->
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/wordGuessGame.JPG" alt="Word Guess Game image">
+                        <div class="card-body">
+                            <h5 class="card-title">Word Guess Game</h5>
+                            <hr>
+                            <p class="card-text">This is a game where you need to guess the word, made using Javascript.</p>
+                            <a href="https://winpildeu.github.io/GifTastic/" class="btn btn-primary" target="_blank"><i class="fas fa-arrow-circle-right"></i> GO</a>
+                        </div>
+                    </div>
+                </div>
 
+                <!-- <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/triviaGame.JPG" alt="trivia game image">
+                        <div class="card-body">
+                            <h5 class="card-title">Trivia Game</h5>
+                            <hr>
+                            <p class="card-text">A Trivia game using JavaScript for the logic and jQuery to manipulate HTML.</p>
+                            <a href="https://winpildeu.github.io/TriviaGame/" class="btn btn-primary"><i class="fas fa-arrow-circle-right"></i> GO</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/rpgGame.JPG" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Pokemon Battle</h5>
+                            <p class="card-text">This is a Pokemon themed turn-based RPG game made using JS and jQuery.</p>
+                            <a href="https://winpildeu.github.io/unit-4-game/" class="btn btn-primary"><i class="fas fa-arrow-circle-right"></i> GO</a>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
 
         <!-- Random colors done during class that looked good -->
         <div class="row" style="height: 20px;">
-            <div class="col-md bg-primary"></div>
+            <div class="col-md bg-warning"></div>
             <div class="col-md bg-dark"></div>
             <div class="col-md bg-info"></div>
             <div class="col-md bg-danger"></div>
