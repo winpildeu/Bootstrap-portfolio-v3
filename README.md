@@ -1,3 +1,3 @@
 # Bootstrap-portfolio-v3
 
-https://winpildeu.github.io/Bootstrap-portfolio
+https://winpildeu.github.io/BootstrapPortfolio
