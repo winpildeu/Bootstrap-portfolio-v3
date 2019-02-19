@@ -1,131 +1,261 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+            crossorigin="anonymous"
+        />
+        <!-- font awesome CSS -->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.4.2/css/all.css"
+            integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+            crossorigin="anonymous"
+        />
+        <!-- Google font -->
+        <link
+            href="https://fonts.googleapis.com/css?family=Raleway"
+            rel="stylesheet"
+        />
+        <!-- My CSS -->
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <title>Winfield H. Portfolio</title>
+    </head>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
-    <!-- font awesome CSS -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
-        crossorigin="anonymous">
-    <!-- Google font -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <!-- My CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Winfield H. Portfolio</title>
-</head>
+    <body>
+        <!-- Navbar with the title and links -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#"
+                    ><i class="fas fa-broadcast-tower"></i> -
+                    <strong>Winfield Huang</strong></a
+                >
 
-<body>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-    <!-- Navbar with the title and links -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                >
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <br />
+        <br />
+
+        <!-- This is where the portfolio is -->
         <div class="container">
-            <a class="navbar-brand" href="#"><i class="fas fa-broadcast-tower"></i> - <strong>Winfield Huang</strong></a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <br>
-    <br>
-
-    <!-- This is where the portfolio is -->
-    <div class="container">
-        <div class="jumbotron shadow border">
-            <div class="row">
-                <div class="col">
-                    <h1 class="display-4">My Portfolio</h1>
-                    <hr class="my-4">
+            <div class="jumbotron shadow border">
+                <div class="row">
+                    <div class="col">
+                        <h1 class="display-4">My Portfolio</h1>
+                        <hr class="my-4" />
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <!-- GifTastic -->
-                    <div class="card">
-                        <img class="card-img-top" src="assets/images/giphySearch.JPG" alt="giphy API search image">
-                        <div class="card-body">
-                            <h5 class="card-title">GifTastic search page</h5>
-                            <hr>
-                            <p class="card-text">This app uses the GIPHY API to make a dynamic web page that populates with gifs of your choice.</p>
-                            <a href="https://winpildeu.github.io/GifTastic/" class="btn btn-primary" target="_blank"><i class="fas fa-arrow-circle-right"></i> GO</a>
+                <div class="row">
+                    <div class="col-md-4">
+                        <!-- LifeSet -->
+                        <div class="card">
+                            <img
+                                class="card-img-top"
+                                src="assets/images/lifeset.JPG"
+                                alt="LifeSet Landing image"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    LifeSet
+                                </h5>
+                                <hr />
+                                <p class="card-text">
+                                    This app makes it easy to create goals for
+                                    ourselves and keep track of each goal's
+                                    progress.
+                                </p>
+                                <a
+                                    href="https://still-ridge-75169.herokuapp.com/"
+                                    class="btn btn-primary"
+                                    target="_blank"
+                                    ><i class="fas fa-arrow-circle-right"></i>
+                                    GO</a
+                                >
+                                <a
+                                    href="https://github.com/burkeri/FinalProject_MERN"
+                                    class="btn btn-secondary"
+                                    target="_blank"
+                                    ><i class="fab fa-github"></i> GitHub</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- WarGames Hacker -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img
+                                class="card-img-top"
+                                src="assets/images/wargames.png"
+                                alt="trivia game image"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">WarGames Hacker</h5>
+                                <hr />
+                                <p class="card-text">
+                                    Team-based card style game where each team
+                                    tries to find hidden codewords based on a
+                                    given clue.
+                                </p>
+                                <a
+                                    href="https://secure-taiga-26535.herokuapp.com/"
+                                    class="btn btn-primary"
+                                    target="_blank"
+                                    ><i class="fas fa-arrow-circle-right"></i>
+                                    GO</a
+                                >
+                                <a
+                                    href="https://github.com/Srqgal70/CardCoders"
+                                    class="btn btn-secondary"
+                                    target="_blank"
+                                    ><i class="fab fa-github"></i> GitHub</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pokemon Battle -->
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img
+                                class="card-img-top"
+                                src="assets/images/rpgGame.JPG"
+                                alt="Pokemon themed RPG game image"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">Pokemon Battle</h5>
+                                <p class="card-text">
+                                    This is a Pokemon themed turn-based RPG game
+                                    made using JS and jQuery.
+                                </p>
+                                <a
+                                    href="https://winpildeu.github.io/unit-4-game/"
+                                    class="btn btn-primary"
+                                    ><i
+                                        class="fas fa-arrow-circle-right"
+                                        target="_blank"
+                                    ></i>
+                                    GO</a
+                                >
+                                <a
+                                    href="https://github.com/winpildeu/unit-4-game"
+                                    class="btn btn-secondary"
+                                    target="_blank"
+                                    ><i class="fab fa-github"></i> GitHub</a
+                                >
+                            </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- Trivia Game -->
-                <div class="col-md-4">
-                    <div class="card">
-                        <img class="card-img-top" src="assets/images/triviaGame.JPG" alt="trivia game image">
-                        <div class="card-body">
-                            <h5 class="card-title">Trivia Game</h5>
-                            <hr>
-                            <p class="card-text">A Trivia game using JavaScript for the logic and jQuery to manipulate HTML.</p>
-                            <a href="https://winpildeu.github.io/TriviaGame/" class="btn btn-primary" target="_blank"><i class="fas fa-arrow-circle-right"></i> GO</a>
+                <br />
+                <div class="row">
+                    <div class="col-md-4">
+                        <!-- Clicky Game -->
+                        <div class="card">
+                            <img
+                                class="card-img-top"
+                                src="assets/images/clicky.JPG"
+                                alt="Word Guess Game image"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">React.js Clicky Game</h5>
+                                <hr />
+                                <p class="card-text">
+                                    There are 16 cards randomly displayed on the
+                                    page. Your goal is to choose 10 different
+                                    cards and finish the game.
+                                </p>
+                                <a
+                                    href="https://winpildeu.github.io/Clicky-game/"
+                                    class="btn btn-primary"
+                                    target="_blank"
+                                    ><i class="fas fa-arrow-circle-right"></i>
+                                    GO</a
+                                >
+                                <a
+                                    href="https://github.com/winpildeu/Clicky-game"
+                                    class="btn btn-secondary"
+                                    target="_blank"
+                                    ><i class="fab fa-github"></i> GitHub</a
+                                >
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Pokemon Battle -->
-                <div class="col-md-4">
-                    <div class="card">
-                        <img class="card-img-top" src="assets/images/rpgGame.JPG" alt="Pokemon themed RPG game image">
-                        <div class="card-body">
-                            <h5 class="card-title">Pokemon Battle</h5>
-                            <p class="card-text">This is a Pokemon themed turn-based RPG game made using JS and jQuery.</p>
-                            <a href="https://winpildeu.github.io/unit-4-game/" class="btn btn-primary"><i class="fas fa-arrow-circle-right" target="_blank"></i> GO</a>
+                    <div class="col-md-4">
+                        <!-- SnackAttack -->
+                        <div class="card">
+                            <img
+                                class="card-img-top"
+                                src="assets/images/snack-attack.PNG"
+                                alt="snack attack image"
+                            />
+                            <div class="card-body">
+                                <h5 class="card-title">SnackAttack</h5>
+                                <hr />
+                                <p class="card-text">
+                                    Snack Attack allows users to select from a
+                                    vast number of ingredients and find recipes
+                                    for them or find a restaurant that has those
+                                    ingredients.
+                                </p>
+                                <a
+                                    href="https://github.com/matttali09/Snack-Attack"
+                                    target="_blank"
+                                    class="btn btn-primary"
+                                    ><i class="fas fa-arrow-circle-right"></i>
+                                    GO</a
+                                >
+                                <a
+                                    href="https://github.com/matttali09/Snack-Attack"
+                                    class="btn btn-secondary"
+                                    target="_blank"
+                                    ><i class="fab fa-github"></i> GitHub</a
+                                >
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-md-4">
-                    <!-- Word Guess -->
-                    <div class="card">
-                        <img class="card-img-top" src="assets/images/wordGuessGame.JPG" alt="Word Guess Game image">
-                        <div class="card-body">
-                            <h5 class="card-title">Word Guess Game</h5>
-                            <hr>
-                            <p class="card-text">This is a game where you need to guess the word, made using Javascript.</p>
-                            <a href="https://winpildeu.github.io/GifTastic/" class="btn btn-primary" target="_blank"><i class="fas fa-arrow-circle-right"></i> GO</a>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-md-4">
-                    <div class="card">
-                        <img class="card-img-top" src="assets/images/snack-attack.PNG" alt="snack attack image">
-                        <div class="card-body">
-                            <h5 class="card-title">Snack Attack</h5>
-                            <hr>
-                            <p class="card-text">Snack Attack allows users to select from a vast number of ingredients and find recipes for them or find a restaurant that has those ingredients.</p>
-                            <a href="https://github.com/matttali09/Snack-Attack" target="_blank" class="btn btn-primary"><i class="fas fa-arrow-circle-right"></i> GO</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- <div class="col-md-4">
+                    <!-- <div class="col-md-4">
                     <div class="card">
                         <img class="card-img-top" src="assets/images/rpgGame.JPG" alt="Card image cap">
                         <div class="card-body">
@@ -135,45 +265,52 @@
                         </div>
                     </div>
                 </div> -->
-            </div>
-        </div>
-
-        <!-- Random colors done during class that looked good -->
-        <div class="row" style="height: 20px;">
-            <div class="col-md bg-warning"></div>
-            <div class="col-md bg-dark"></div>
-            <div class="col-md bg-info"></div>
-            <div class="col-md bg-danger"></div>
-        </div>
-
-        <!-- Container end - DO NOT DELETE -->
-    </div>
-
-
-    <!-- will contain the copyright info and social media links (soon) -->
-    <footer class="mt-5 border-top bg-dark">
-        <div class="container">
-            <div class="row">
-                <div class="col-md">
-                    <small class="text-muted">© 2017-2018</small>
                 </div>
             </div>
+
+            <!-- Random colors done during class that looked good -->
+            <div class="row" style="height: 20px;">
+                <div class="col-md bg-warning"></div>
+                <div class="col-md bg-dark"></div>
+                <div class="col-md bg-info"></div>
+                <div class="col-md bg-danger"></div>
+            </div>
+
+            <!-- Container end - DO NOT DELETE -->
         </div>
-    </footer>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
+        <!-- will contain the copyright info and social media links (soon) -->
+        <footer class="mt-5 border-top bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md">
+                        <small class="text-muted">© 2017-2018</small>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
-    <!-- <script>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- <script>
         var title = document.getElementById("title");
         title.innerHTML = "Changed me";
     </script> -->
-</body>
-
+    </body>
 </html>
